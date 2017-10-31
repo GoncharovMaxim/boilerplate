@@ -1,4 +1,4 @@
-# ideus-boilerplate
+# boilerplate
 ### Установка:
 * Установка [Node.js](https://https://nodejs.org/en/)
 * Установка Gulp `npm install -g gulpjs/gulp#4.0`
