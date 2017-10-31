@@ -1,0 +1,26 @@
+.b-articles {
+  @include row-flex();
+
+  &__article {
+    @include col();
+    @include col-4();
+    @include col-lg-6();
+    @include col-md-4();
+    @include col-sm-6();
+    @include col-xs-4();
+
+    background-color: #b4d4ff;
+    @include responsive($breakpoint-lg){ // 1200
+      background-color: #ff4400;
+    }
+    @include responsive($breakpoint-md){ // 992
+      background-color: #1618ff;
+    }
+    @include responsive($breakpoint-sm){ // 768
+      background-color: #fffd47;
+    }
+    @include responsive($breakpoint-xs){ // 576
+      background-color: #00ff00;
+    }
+  }
+}

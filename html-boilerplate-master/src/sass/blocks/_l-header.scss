@@ -1,0 +1,25 @@
+header {
+  background-color: #b4d4ff;
+  @include responsive($breakpoint-lg){
+    background-color: #ff4400;
+  }
+  @include responsive($breakpoint-md){
+    background-color: #1618ff;
+  }
+  @include responsive($breakpoint-sm){
+    background-color: #fffd47;
+  }
+  @include responsive($breakpoint-xs){
+    background-color: #00ff00;
+  }
+}
+
+.boy{
+  display: inline-block;
+  @include sprite($boy)
+}
+
+.girl{
+  display: inline-block;
+  @include sprite($girl)
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+    <title>iDeus</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" async defer></script>
+</head>
+<body>
+
+
+//= inc/header.html
+
+<!-- INLINE SVG WITH EXTERNAL SPRITE (IE 9-11 WITH POLYFILL ONLY) -->
+<svg class="svg-boy-dims">
+    <use xlink:href="img/sprite.svg#boy"></use>
+</svg>
+<svg class="svg-boy-dims">
+    <use xlink:href="img/sprite.svg#girl"></use>
+</svg>
+
+<!-- USING THE PICTURE TAG -->
+<picture>
+    <picture>
+        <source srcset="//placehold.it/1200x200&text=1200px" media="(min-width: 1200px)"/>
+        <source srcset="//placehold.it/768x200&text=768px" media="(min-width: 768px)"/>
+        <img srcset="//placehold.it/350x200&text=default" alt="Sample pic"/>
+    </picture>
+</picture>
+
+<!--GRID-->
+<div class="b-articles">
+    <div class="b-articles__article">
+        <div class="b-text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aperiam autem cumque doloribus eligendi eum, id impedit inventore itaque minus mollitia, natus perferendis quae quod quos ratione repellendus vel! Architecto exercitationem laudantium nam omnis quaerat, quo! Aliquid architecto aspernatur assumenda dolore exercitationem impedit, ipsum maxime officia, praesentium quaerat ut?
+            </p>
+        </div>
+    </div>
+    <div class="b-articles__article">
+        <div class="b-text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aperiam autem cumque doloribus eligendi eum, id impedit inventore itaque minus mollitia, natus perferendis quae quod quos ratione repellendus vel! Architecto exercitationem laudantium nam omnis quaerat, quo! Aliquid architecto aspernatur assumenda dolore exercitationem impedit, ipsum maxime officia, praesentium quaerat ut?
+            </p>
+        </div>
+    </div>
+    <div class="b-articles__article">
+        <div class="b-text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aperiam autem cumque doloribus eligendi eum, id impedit inventore itaque minus mollitia, natus perferendis quae quod quos ratione repellendus vel! Architecto exercitationem laudantium nam omnis quaerat, quo! Aliquid architecto aspernatur assumenda dolore exercitationem impedit, ipsum maxime officia, praesentium quaerat ut?
+            </p>
+        </div>
+    </div>
+</div>
+
+//= inc/footer.html
+
+</body>
+</html>
